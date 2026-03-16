@@ -15,7 +15,7 @@ const FormularioProveedor: React.FC<Props> = ({
     } = useFormularioProveedor(editarProveedor, setProveedorEdit, agregarYactualizarProveedor);
 
     return (
-        <div className="bg-white ">
+        <div className="bg-white shadow-lg p-10 rounded-2xl">
             <h2 className="text-2xl font-semibold mb-4 text-gray-700 text-center">
                 {editarProveedor ? "Editar Proveedor" : "Ingrese la información del proveedor"}
             </h2>
